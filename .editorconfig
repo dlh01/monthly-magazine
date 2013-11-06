@@ -1,0 +1,12 @@
+; Help define and maintain consistent coding styles
+; See editorconfig.org for more information and examples
+
+; top-most EditorConfig file
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+tab_width = 4
+indent_style = tab
