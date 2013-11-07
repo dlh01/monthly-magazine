@@ -268,8 +268,8 @@ class MM {
 			'show_ui'             => true,
 			'supports'            => $this->get_post_type_supports(),
 			'has_archive'         => true,
-			'query_var'           => array( 'string' => 'issue' ),
-			'rewrite'             => array( 'slug' => 'issue' ),
+			'query_var'           => array( 'string' => 'issues' ),
+			'rewrite'             => array( 'slug' => 'issues' ),
 			'labels'              => array(
 				'name'                => __( 'Issues', 'monthly-magazine' ),
 				'singular_name'       => __( 'Issue', 'monthly-magazine' ),
