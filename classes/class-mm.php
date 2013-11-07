@@ -268,7 +268,7 @@ class MM {
 			'show_ui'             => true,
 			'supports'            => $this->get_post_type_supports(),
 			'has_archive'         => true,
-			'query_var'           => array( 'string' => 'issues' ),
+			'query_var'           => 'issues',
 			'rewrite'             => array( 'slug' => 'issues' ),
 			'labels'              => array(
 				'name'                => __( 'Issues', 'monthly-magazine' ),
