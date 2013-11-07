@@ -7,7 +7,7 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Create issues for a magazine using out-of-the-box integration with Posts 2
+Create a magazine in WordPress using out-of-the-box integration with Posts 2
 Posts and Developers Custom Fields.
 
 == Description ==
