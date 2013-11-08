@@ -149,15 +149,6 @@ class MM {
 	}
 
 	/**
-	 * Gets the value of issue_dates
-	 *
-	 * @return array
-	 */
-	public function get_issue_dates() {
-		return apply_filters( 'mm_issue_dates', $this->issue_dates );
-	}
-
-	/**
 	 * Gets the value of post_type_slug
 	 *
 	 * @since 1.0.0
