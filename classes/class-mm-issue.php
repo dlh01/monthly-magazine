@@ -171,7 +171,7 @@ class MM_Issue {
 		$text = apply_filters( 'mm_issue_download_link_text', $text, $file_url );
 
 		if ( '' != $text )
-			$content .= $text;
+			$content .= wpautop( $text );
 
 		return $content;
 	}
