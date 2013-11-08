@@ -176,7 +176,7 @@ class MM {
 	 * @return array
 	 */
 	public function get_post_type_supports() {
-		return apply_filters( 'mm_post_type_supports', $this->post_type_supports );
+		return $this->post_type_supports;
 	}
 
 	/**
@@ -215,27 +215,23 @@ class MM {
 	/**
 	 * Gets the value of issue_content_connection_from_title
 	 *
-	 * @uses apply_filters
-	 *
 	 * @since 1.0.0
 	 *
 	 * @return string
 	 */
 	public function get_issue_content_connection_from_title() {
-		return apply_filters( 'mm_issue_content_connection_from_title', $this->issue_content_connection_from_title );
+		return $this->issue_content_connection_from_title;
 	}
 
 	/**
 	 * Gets the value of issue_content_connection_to_title
-	 *
-	 * @uses apply_filters
 	 *
 	 * @since 1.0.0
 	 *
 	 * @return string
 	 */
 	public function get_issue_content_connection_to_title() {
-		return apply_filters( 'mm_issue_content_connection_to_title', $this->issue_content_connection_to_title );
+		return $this->issue_content_connection_to_title;
 	}
 
 	/**

@@ -40,7 +40,7 @@ class MM_Issue {
 	 * @param string $name The name, without a prefix, of the postmeta field to check for
 	 * @return mixed|false The meta value, or false if no postmeta was found
 	 */
-	public function get_post_meta( $name ) {
+	private function get_post_meta( $name ) {
 		global $post;
 
 		$mm = MM::get_instance();
@@ -63,8 +63,7 @@ class MM_Issue {
 	 */
 	public function get_issue_content_heading() {
 		global $post;
-
-		return apply_filters( 'mm_issue_content_heading', $this->issue_content_heading, $post->ID );
+		return $this->issue_content_heading;
 	}
 
 	/**
